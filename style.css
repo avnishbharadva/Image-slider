@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+}
+.pic{
+    width: 80%;
+    margin: 45px auto;
+    height: 550px;
+    background-image: url("./images/ipl.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 6px solid rgb(143, 248, 129);
+    box-shadow: 0px 0px 60px 20px black;
+    border-radius: 20px;
+    /* transition: 1s; */
+}
+.p{
+    position: relative;
+    top: 340px;
+    left: 205px;
+    font-size: 2rem;
+    background: none;
+    cursor: pointer;
+    color: yellow;
+    border: none;
+    /* margin: 25% 0 0 0; */
+}
+.n{
+    position: relative;
+    bottom: 327px;
+    left: 1310px;
+    font-size: 2rem;
+    background: none;
+    cursor: pointer;
+    color: yellow;
+    border: none;
+}
